@@ -27,7 +27,6 @@ public class exercicio3 {
 		
 		// Delta 
 		delta = Math.sqrt((b*b)-4*a*c);
-		System.out.println(delta);
 		
 		// Decisão a partir dos valores possíveis de delta
 		if(delta > 0) {
