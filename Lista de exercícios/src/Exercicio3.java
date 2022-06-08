@@ -1,10 +1,9 @@
-import java.util.Scanner;
 
-public class exercicio4 {
+public class Exercicio3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		
+
 	}
 
 }
