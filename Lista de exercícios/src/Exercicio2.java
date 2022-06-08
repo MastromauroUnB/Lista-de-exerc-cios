@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class exercicio2 {
+public class Exercicio2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -12,13 +12,13 @@ public class exercicio2 {
 		char digito;
 		
 		// Criação do Scanner
-		Scanner s = new Scanner(System.in);
+		Scanner leitor = new Scanner(System.in);
 		
 		// Código
 		
 		// Leitura do caractere
 		System.out.print("Digite um caracere qualquer: ");
-		digito = s.next().charAt(0);
+		digito = leitor.next().charAt(0);
 		
 		// Estrutura de decisão (converte o caractere em uma string em minúsculo).
 		if(consoantes.contains(Character.toString(digito).toLowerCase())) {
@@ -33,7 +33,7 @@ public class exercicio2 {
 		else {
 			System.out.println("O caractere é um caractere especial");
 		}
-		s.close();
+		leitor.close();
 	}
 
 }
