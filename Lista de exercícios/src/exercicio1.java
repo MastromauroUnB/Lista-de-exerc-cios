@@ -19,6 +19,7 @@ public class exercicio1 {
 		}else {
 			System.out.println("Sem multa hoje B)");
 		}
+		s.close();
 	}
 
 }
