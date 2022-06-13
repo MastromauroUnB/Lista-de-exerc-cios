@@ -1,8 +1,5 @@
 import java.util.Scanner;
-/*
- * Recebe uma velocidade máxima de uma avenida e a velocidade de um carro, para que uma
- * multa possa ser determinada a partir da diferença de velocidade
- */
+
 public class Exercicio1 {
 
 	public static void main(String[] args) {
